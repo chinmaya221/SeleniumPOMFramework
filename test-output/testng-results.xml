@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-12-03T15:58:26 IST" name="Suite" finished-at="2021-12-03T15:59:12 IST" duration-ms="45542">
+    <groups>
+    </groups>
+    <test started-at="2021-12-03T15:58:26 IST" name="Test" finished-at="2021-12-03T15:59:12 IST" duration-ms="45542">
+      <class name="TestCases.MyPortfolioTest">
+        <test-method is-config="true" signature="invokeBrowser(java.lang.String)[pri:0, instance:TestCases.MyPortfolioTest@2ad48653]" started-at="2021-12-03T15:58:26 IST" name="invokeBrowser" finished-at="2021-12-03T15:58:28 IST" duration-ms="1717" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invokeBrowser -->
+        <test-method signature="openPortfolio(java.util.Hashtable)[pri:0, instance:TestCases.MyPortfolioTest@2ad48653]" started-at="2021-12-03T15:58:28 IST" name="openPortfolio" data-provider="getOpenPortfolioTestData" finished-at="2021-12-03T15:59:11 IST" duration-ms="43122" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{pagetitle=Rediff Moneywiz | My Portfolio(s), password=redif@221Deo, username=chinmaya.deo}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openPortfolio -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCases.MyPortfolioTest@2ad48653]" started-at="2021-12-03T15:59:11 IST" name="flushReports" finished-at="2021-12-03T15:59:12 IST" duration-ms="290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestCases.MyPortfolioTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
