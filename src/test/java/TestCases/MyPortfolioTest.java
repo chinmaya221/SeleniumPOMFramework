@@ -50,5 +50,10 @@ public class MyPortfolioTest extends BaseTest{
 		return TestDataProvider.getTestData("TestFile.xlsx", "RedlifLoginTest", "openPortfolio");
 	}
 	
+	@Test
+	public void NewTest() {
+		System.out.println("This is just a new test");
+	}
+	
 
 }
